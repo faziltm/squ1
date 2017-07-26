@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.inapp.sample" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Sultan Qaboos University</name>
+<widget id="com.klystrontech.squ" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>SQU</name>
     <description>
-
+Sultan Qaboos University
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        ISACA
+        SQU
     </author>
     <content src="index.html" />.
     <feature name="InAppBrowser">
