@@ -1,10 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="EG7ZTZQ3JQ.com.klystrontech.LemonPR" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Lemon PR</name>
-    <description>Lemon PR app for event booking</description>
+<widget id="com.klystrontech.squ" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <description>
+       Sultan Qaboos University
+    </description>
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>SQU</name>
+    <description>Sultan Qaboos University</description>
     <author email="support@phonegap.com" href="http://phonegap.com">Klystrontech Team</author>
     <content src="index.html" />
-    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" source="npm" />
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.console" />
     <gap:plugin name="org.apache.cordova.device" />
@@ -47,6 +56,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="DisallowOverscroll" value="true" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
