@@ -1,0 +1,15 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "EG7ZTZQ3JQ.com.klystrontech.LemonPR"
+        }
+    },
+    "dependent_plugins": {}
+}
