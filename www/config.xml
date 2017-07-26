@@ -25,16 +25,16 @@
   <preference name="StatusBarOverlaysWebView" value="false" />
   <preference name="StatusBarBackgroundColor" value="#000000" />
   
-  <gap:plugin name="com.phonegap.plugin.statusbar" />
-  <gap:plugin name="org.apache.cordova.battery-status"/>
-  <gap:plugin name="org.apache.cordova.console"/>
-  <gap:plugin name="org.apache.cordova.device"/>
-  <gap:plugin name="org.apache.cordova.device-motion"/>
-  <gap:plugin name="org.apache.cordova.device-orientation"/>
-  <gap:plugin name="org.apache.cordova.dialogs"/>
-  <gap:plugin name="org.apache.cordova.globalization"/>
-  <gap:plugin name="org.apache.cordova.inappbrowser"/>
-  <gap:plugin name="org.apache.cordova.splashscreen"/>
+  <plugin name="com.phonegap.plugin.statusbar" />
+  <plugin name="org.apache.cordova.battery-status"/>
+  <plugin name="org.apache.cordova.console"/>
+  <plugin name="org.apache.cordova.device"/>
+  <plugin name="org.apache.cordova.device-motion"/>
+  <plugin name="org.apache.cordova.device-orientation"/>
+  <plugin name="org.apache.cordova.dialogs"/>
+  <plugin name="org.apache.cordova.globalization"/>
+  <plugin name="org.apache.cordova.inappbrowser"/>
+  <plugin name="org.apache.cordova.splashscreen"/>
   
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
