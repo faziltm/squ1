@@ -25,7 +25,16 @@
   <preference name="StatusBarOverlaysWebView" value="false" />
   <preference name="StatusBarBackgroundColor" value="#000000" />
   
-
+  <gap:plugin name="com.phonegap.plugin.statusbar"/>
+  <gap:plugin name="com.phonegap.plugin.battery-status"/>
+  <gap:plugin name="com.phonegap.plugin.console"/>
+  <gap:plugin name="com.phonegap.plugin.device"/>
+  <gap:plugin name="com.phonegap.plugin.device-motion"/>
+  <gap:plugin name="com.phonegap.plugin.device-orientation"/>
+  <gap:plugin name="com.phonegap.plugin.dialogs"/>
+  <gap:plugin name="com.phonegap.plugin.globalization"/>
+  <gap:plugin name="com.phonegap.plugin.inappbrowser"/>
+  <gap:plugin name="com.phonegap.plugin.splashscreen"/>
   
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
