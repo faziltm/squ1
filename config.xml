@@ -1,6 +1,6 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="EG7ZTZQ3JQ.com.klystrontech.LemonPR" version="1.0.0">
-  <name>Lemon PR</name>
-  <description>Lemon PR app for event booking</description>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.klystrontech.SQU" version="1.0.0">
+  <name>SQU</name>
+  <description>Sultan Qaboos University</description>
   <author href="http://phonegap.com" email="support@phonegap.com">Klystrontech Team</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
